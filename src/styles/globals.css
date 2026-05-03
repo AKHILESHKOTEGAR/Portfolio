@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #1a1a2e;
+  --bg-deep: #13131f;
+  --bg-elevated: #1f1f35;
+  --accent: #e8a87c;
+  --accent-dim: #c48a63;
+  --text-dim: #94a3b8;
+  --text-muted: #5c6478;
+  --border: rgba(232, 168, 124, 0.2);
+  --border-strong: rgba(232, 168, 124, 0.35);
+  --ok: #7ec699;
+  --warn: #e8c07c;
+  --err: #e87c7c;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  color: var(--text-dim);
+}
+
+* {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+/* tighter scrollbar inside the terminal shell */
+.terminal-scroll::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.terminal-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.terminal-scroll::-webkit-scrollbar-thumb {
+  background: rgba(232, 168, 124, 0.2);
+  border-radius: 999px;
+}
+.terminal-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(232, 168, 124, 0.4);
+}

@@ -1,0 +1,60 @@
+export const SKILLS = [
+  // Web Development & Frameworks
+  { name: "Next.js 16", cat: "web", level: 93 },
+  { name: "React.js", cat: "web", level: 93 },
+  { name: "TypeScript", cat: "web", level: 90 },
+  { name: "JavaScript", cat: "web", level: 92 },
+  { name: "Node.js", cat: "web", level: 88 },
+  { name: "Express.js", cat: "web", level: 85 },
+  { name: "Tailwind CSS", cat: "web", level: 90 },
+  { name: "Shadcn/ UI", cat: "web", level: 88 },
+  { name: "HTML5", cat: "web", level: 95 },
+  { name: "CSS3", cat: "web", level: 90 },
+  { name: "Redux", cat: "web", level: 80 },
+
+  // AI & Data Science
+  { name: "Python", cat: "ai", level: 88 },
+  { name: "TensorFlow", cat: "ai", level: 75 },
+  { name: "Keras", cat: "ai", level: 72 },
+  { name: "Google Gemini API", cat: "ai", level: 85 },
+  { name: "Anthropic Claude API", cat: "ai", level: 82 },
+  { name: "LLMs", cat: "ai", level: 85 },
+  { name: "OpenAI", cat: "ai", level: 78 },
+  { name: "LangChain", cat: "ai", level: 72 },
+  { name: "Embeddings & RAG", cat: "ai", level: 70 },
+  { name: "Vector DBs", cat: "ai", level: 68 },
+  { name: "Prompt Engineering", cat: "ai", level: 85 },
+  { name: "Pandas", cat: "ai", level: 78 },
+  { name: "NumPy", cat: "ai", level: 75 },
+
+  // Tools & DevOps
+  { name: "Git", cat: "tools", level: 92 },
+  { name: "GitHub", cat: "tools", level: 90 },
+  { name: "CI/ CD Pipelines", cat: "tools", level: 78 },
+  { name: "Postman", cat: "tools", level: 85 },
+  { name: "Figma", cat: "tools", level: 80 },
+  { name: "Jira", cat: "tools", level: 80 },
+  { name: "Unit Testing", cat: "tools", level: 78 },
+  { name: "System Design", cat: "tools", level: 75 },
+  { name: "NPM / Yarn", cat: "tools", level: 88 },
+
+  // Backend, Database & Cloud
+  { name: "PostgreSQL", cat: "be_cloud", level: 82 },
+  { name: "MongoDB", cat: "be_cloud", level: 80 },
+  { name: "Prisma ORM", cat: "be_cloud", level: 88 },
+  { name: "Redis", cat: "be_cloud", level: 70 },
+  { name: "AWS (Lambda, API Gateway)", cat: "be_cloud", level: 80 },
+  { name: "Vercel", cat: "be_cloud", level: 85 },
+  { name: "Docker", cat: "be_cloud", level: 78 },
+  { name: "REST APIs", cat: "be_cloud", level: 85 },
+  { name: "GraphQL", cat: "be_cloud", level: 83 },
+  { name: "Microservices", cat: "be_cloud", level: 75 },
+  { name: "Firebase", cat: "be_cloud", level: 72 },
+
+  // Mobile & Other Languages
+  { name: "Java", cat: "mobile_lang", level: 82 },
+  { name: "Kotlin", cat: "mobile_lang", level: 78 },
+  { name: "Flutter", cat: "mobile_lang", level: 80 },
+  { name: "C++", cat: "mobile_lang", level: 70 },
+  { name: "SQL", cat: "mobile_lang", level: 82 },
+];
