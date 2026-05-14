@@ -32,7 +32,7 @@ export default function App() {
   };
 
   const doDownload = () => {
-    const res = downloadResume();
+    const res = downloadResume(lang);
     if (res.ok) {
       setFb(`↓ downloading ${res.filename}`, "ok");
     } else {

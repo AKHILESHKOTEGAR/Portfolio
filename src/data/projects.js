@@ -1,13 +1,37 @@
 export const PROJECTS = [
+
+  {
+    id: "grid-01",
+    title: "PITWALL - F1 Immersive Dashboard",
+    tag: "F1 ANALYTICS",
+    size: "lg",
+    shortEn: "Immersive F1 dashboard & comparative battle engine.",
+    shortDe: "Immersives F1-Dashboard und vergleichende Battle-Engine.",
+    stack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Three.js", "React Three Fiber", "Framer Motion", "FastAPI", "Python", "FastF1", "NumPy", "Pandas", "WebSocket", "SSE", "Docker", "Vercel", "Railway"],
+    github: "https://github.com/AKHILESHKOTEGAR/grid-01-dashboard.git",
+    live: "https://pitwall-01.vercel.app/",
+    impactsEn: ["Real-time race replay streaming telemetry (position, speed, DRS, tyre) for all 20 drivers via Server-Sent Events at 10 fps",
+      "Interactive 3D F1 car viewer built with React Three Fiber — team-colored lighting, auto-rotate, dark/light mode",
+      "Full-stack: FastAPI + FastF1 Python backend processing raw 20 Hz telemetry; deployed on Vercel + Railway via Docker",
+      "Covers all F1 seasons (1950–2026) — race, qualifying, sprint results with animated podium cards and live standings"
+    ],
+    impactsDe: [
+      "Echtzeit-Streaming von Rennwiederholungs-Telemetriedaten (Position, Geschwindigkeit, DRS, Reifen) für alle 20 Fahrer über Server-Sent Events mit 10 fps",
+      "Interaktiver 3D-F1-Auto-Viewer, entwickelt mit React Three Fiber — teamfarbene Beleuchtung, automatische Rotation, Dark-/Light-Mode",
+      "Full-Stack-Anwendung: FastAPI + FastF1 Python-Backend zur Verarbeitung von rohen 20-Hz-Telemetriedaten; Deployment über Docker auf Vercel + Railway",
+      "Unterstützung aller F1-Saisons (1950–2026) — Rennen, Qualifying- und Sprint-Ergebnisse mit animierten Podiums-Karten und Live-Tabellenständen"
+    ]
+  },
   {
     id: "Allergy-Guard",
     title: "Allergy-Guard",
     tag: "Health Tech / AI",
-    size: "lg",
+    size: "md",
     shortEn: "AI-driven allergen detection and safe product alternative engine.",
     shortDe: "KI-gestützte Allergenerkennung und Suchmaschine für sichere Produktalternativen.",
     stack: ["Python", "Streamlit", "Gemini AI", "scikit-learn", "EasyOCR"],
     github: "https://github.com/AKHILESHKOTEGAR/Allergy_detector.git",
+    live: "#",
     impactsEn: [
       "Developed a 3-tier analysis pipeline (Gemini Pro, ML, and Rule-based) for reliable ingredient scanning.",
       "Implemented 'Online Learning' using SGDClassifier to update the local model via real-time user feedback.",
@@ -19,26 +43,7 @@ export const PROJECTS = [
       "Entwicklung einer halluzinationsfreien Suchmaschine für Alternativen basierend auf Google Search und Open Food Facts."
     ]
   },
-  {
-    id: "grid-01",
-    title: "GRID-01 Dashboard",
-    tag: "F1 ANALYTICS",
-    size: "md",
-    shortEn: "Immersive F1 dashboard & comparative battle engine.",
-    shortDe: "Immersives F1-Dashboard und vergleichende Battle-Engine.",
-    stack: ["TypeScript", "Next.js 16", "F1 API", "Tailwind"],
-    github: "https://github.com/akhilesh-k/grid-01-dashboard",
-    impactsEn: [
-      "Real-time telemetry visualization using live F1 API data.",
-      "Built a custom predictive engine for mid-race battle outcomes.",
-      "Responsive terminal-style UI optimized for high-density data."
-    ],
-    impactsDe: [
-      "Echtzeit-Telemetrie-Visualisierung mit Live-F1-API-Daten.",
-      "Eigene Predictive Engine für Rennergebnisse entwickelt.",
-      "Terminal-UI für hohe Datendichte optimiert."
-    ]
-  },
+
   {
     id: "Nexus-PDF",
     title: "Nexus-PDF",
@@ -48,6 +53,7 @@ export const PROJECTS = [
     shortDe: "Präzisions-RAG-Engine für technische Dokumentenanalyse mit zweistufigem Abruf.",
     stack: ["Next.js 15", "FastAPI", "ChromaDB", "LangChain", "FastEmbed", "PyMuPDF"],
     github: "https://github.com/AKHILESHKOTEGAR/Synapse-Query.git",
+    live: "#",
     impactsEn: [
       "Architected a professional 2-stage retrieval pipeline using Bi-Encoders for fast search and Cross-Encoders for high-precision re-ranking[cite: 1].",
       "Engineered a Hybrid Search safety net combining Dense Vector Search with BM25 keyword matching to eliminate retrieval gaps in technical terminology[cite: 1].",
@@ -68,6 +74,7 @@ export const PROJECTS = [
     shortDe: "Multi-tenant CRM mit Gemini KI-Automatisierung und E2E-Typsicherheit.",
     stack: ["Next.js 16", "TypeScript", "Prisma", "Gemini API"],
     github: "https://github.com/akhilesh-k/orbit-dashboard",
+    live: "#",
     impactsEn: [
       "Architected a multi-tenant SaaS with RBAC security via Clerk and Prisma/PostgreSQL.",
       "Integrated Gemini AI to automate email drafting, reducing admin workload by 40%.",
@@ -88,6 +95,7 @@ export const PROJECTS = [
     shortDe: "Claude-basierte Extension für KI-Code-Reviews direkt in GitHub PRs.",
     stack: ["JavaScript", "Chrome MV3", "Claude API", "DOM"],
     github: "https://github.com/akhilesh-k/ai-code-reviewer",
+    live: "#",
     impactsEn: [
       "Injected AI-powered comments into GitHub PRs, eliminating manual context switching.",
       "Processed live diffs via Claude API with structured severity tags (Critical/Warning/Info).",
@@ -108,6 +116,7 @@ export const PROJECTS = [
     shortDe: "Serverless Flutter App mit AWS Lambda und QR-Inventur.",
     stack: ["Flutter", "AWS Lambda", "MongoDB", "QR"],
     github: "https://github.com/akhilesh-k/kegs-pegs",
+    live: "#",
     impactsEn: [
       "Built a mobile inventory app reducing manual stocktaking effort by 70% via QR scanning.",
       "Optimized backend performance by 90% via MongoDB indexing and API Gateway caching.",

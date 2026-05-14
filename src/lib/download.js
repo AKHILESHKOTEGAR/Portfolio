@@ -1,18 +1,20 @@
-const RESUME_FILENAME = "Akhilesh_Kotegar_Resume.pdf";
+const RESUME_FILENAMES = {
+  en: "Akhilesh_Kotegar_Resume_EN.pdf",
+  de: "Akhilesh_Kotegar_Resume_DE.pdf",
+};
 
-export function downloadResume() {
+export function downloadResume(lang = "en") {
+  const filename = RESUME_FILENAMES[lang] ?? RESUME_FILENAMES.en;
   try {
     const link = document.createElement("a");
-    link.href = `/${RESUME_FILENAME}`;
-    link.download = RESUME_FILENAME;
+    link.href = `/${filename}`;
+    link.download = filename;
     link.rel = "noopener";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-    return { ok: true, filename: RESUME_FILENAME };
+    return { ok: true, filename };
   } catch {
-    return { ok: false, filename: RESUME_FILENAME };
+    return { ok: false, filename };
   }
 }
-
-export { RESUME_FILENAME };
