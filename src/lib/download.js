@@ -1,6 +1,6 @@
 const RESUME_FILENAMES = {
-  en: "Akhilesh_Kotegar_Resume_EN.pdf",
-  de: "Akhilesh_Kotegar_Resume_DE.pdf",
+  en: "CV_AkhileshBhaskarKotegar.pdf",
+  de: "",
 };
 
 export function downloadResume(lang = "en") {
