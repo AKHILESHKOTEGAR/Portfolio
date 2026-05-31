@@ -43,6 +43,27 @@ export const PROJECTS = [
       "Entwicklung einer halluzinationsfreien Suchmaschine für Alternativen basierend auf Google Search und Open Food Facts."
     ]
   },
+  {
+    id: "LiquorSafe",
+    title: "LiquorSafe",
+    tag: "Gov Tech / Full-Stack",
+    size: "lg",
+    shortEn: "Blind inventory audit platform for government-licensed liquor stores with real-time discrepancy detection.",
+    shortDe: "Blindes Inventar-Prüfsystem für staatlich lizenzierte Spirituosengeschäfte mit Echtzeit-Abweichungserkennung.",
+    stack: ["TypeScript", "Next.js 14", "Expo", "React Native", "Fastify", "Prisma", "PostgreSQL", "TailwindCSS"],
+    github: "https://github.com/AKHILESHKOTEGAR/liquor_Inventory.git",
+    live: "#",
+    impactsEn: [
+      "Architected a 3-tier role system (Owner, Manager, Staff) with JWT authentication, JTI-based token revocation, and store-scoped access control across a pnpm monorepo.",
+      "Built a blind mobile audit scanner (Expo/React Native) with fraud guards — manual entry capped at 10 per session and snapshot-based stock freezing to prevent pre-session manipulation.",
+      "Delivered a real-time web dashboard with calendar view, discrepancy matrix, surplus detection, manager sign-off workflow, and one-click PDF compliance report export for government inspectors."
+    ],
+    impactsDe: [
+      "Architektur eines 3-stufigen Rollensystems (Owner, Manager, Staff) mit JWT-Authentifizierung, JTI-basiertem Token-Widerruf und filialspezifischer Zugriffskontrolle in einem pnpm-Monorepo.",
+      "Entwicklung eines blinden mobilen Audit-Scanners (Expo/React Native) mit Betrugssicherungen — manuelle Eingabe auf 10 pro Sitzung begrenzt und snapshot-basierte Bestandseinfrierung zur Manipulationsverhinderung.",
+      "Bereitstellung eines Echtzeit-Web-Dashboards mit Kalenderansicht, Abweichungsmatrix, Überschusserkennung, Manager-Freigabe-Workflow und PDF-Compliance-Berichtsexport für Behördeninspektoren."
+    ]
+  },
 
   {
     id: "Nexus-PDF",
